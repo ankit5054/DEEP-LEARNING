@@ -77,31 +77,19 @@ Categorical Crossentropy Loss: 0.0257 <br>
 ACCURACY: 99.33%<br>
 
 
+## Long Short-Term Memory (LSTM)
+This Algorithm is applied on Text Data.
 
 
+### FIRST MODEL
+Layers: 1
+Architecture: EMBEDDING->LSTM->DROPOUT->DENSE
+Loss: 0.6054
+Accuracy: 89.26%
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### SECOND MODEL
+Layers: 2
+Architecture: EMBEDDING->LSTM->LSTM->DENSE 
+Loss: 0.7312
+Accuracy: 89.41%
 
