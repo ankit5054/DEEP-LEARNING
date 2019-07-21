@@ -1,7 +1,7 @@
 # DEEP-LEARNING
-I have applied the Neural Network on the MNIST dataset.
 
 ## Multi Layer Perceptron (MLP)
+I have applied the Neural Network on the MNIST dataset<br>
 
 ABBREVATIONS <BR>
 1.BN-> BATCH NORMALISATION<br>
@@ -38,6 +38,64 @@ NO. OF HIDDEN LAYERS: 4 WITH ALTERNATIVE DROPOUTS<br>
 ARCHITECTURE OF MODEL: IP->790->390->DP->290->670->DP->OP<br>
 Categorical Crossentropy Loss: 0.469  <br>
 ACCURACY: 82.42%<br>
+
+
+## Convolutional Neural Network
+
+ABBREVATIONS <br>
+1.BN-> BATCH NORMALISATION<br>
+2.DP-> DROPOUTS<br>
+3.IP-> INPUT LAYER<br>
+4.OP-> OUTPUT LAYER<br>
+5.FL-> FLATTEN LAYER <br>
+6.CN-> CONVOLUTIONAL LAYER<br>
+7.PL-> MAX POOLING  <br>
+8.DN-> DENSE LAYER<br>
+
+### FIRST MODEL
+NO. OF HIDDEN LAYERS: 3<br>
+ARCHITECTURE OF MODEL: IP->CN->DP->CN->CN->PL->DP->FL->DN->DP->DN<br>
+Categorical Crossentropy Loss: 0.02223 <br>
+ACCURACY: 99.31%<br>
+
+### SECOND MODEL
+NO. OF HIDDEN LAYERS: 5<br>
+ARCHITECTURE OF MODEL: IP->CN->DP->BN->CN->PL->DP->CN->PL->BN->DP->CN->DP->BN->PL->FL->DN->DP->DN->OP<br>
+Categorical Crossentropy Loss: 0.0969 <br>
+ACCURACY: 98.25%<br>
+
+### THIRD MODEL
+NO. OF HIDDEN LAYERS: 7<br>
+ARCHITECTURE OF MODEL: IP->CN->DP->BN->PL->CN->BN->DP->PL->CN->DP->BN->PL->CN->BN->DP->CN->BN->DP->PL->CN->DP->BN->PL->CN->BN->DP->PL->FL->DN->DN->OP<br>
+Categorical Crossentropy Loss: 0.0603 <br>
+ACCURACY: 98.48%<br>
+
+### FOURTH MODEL
+NO. OF HIDDEN LAYERS: 3(NO BN AND DP)<br>
+ARCHITECTURE OF MODEL: IP->CN->CN->CN->PL->FL->DN->DN<br>
+Categorical Crossentropy Loss: 0.0257 <br>
+ACCURACY: 99.33%<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
