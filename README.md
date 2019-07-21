@@ -3,7 +3,7 @@
 
 
 ## Multi Layer Perceptron (MLP)
-I have applied the Neural Network on the MNIST dataset<br>
+I have applied the MLP on the MNIST dataset<br>
 
 ABBREVATIONS <BR>
 1.BN-> BATCH NORMALISATION<br>
@@ -44,6 +44,8 @@ ACCURACY: 82.42%<br>
 
 ## Convolutional Neural Network
 
+I have applied the MLP on the MNIST dataset<br>
+
 ABBREVATIONS <br>
 1.BN-> BATCH NORMALISATION<br>
 2.DP-> DROPOUTS<br>
@@ -80,7 +82,7 @@ ACCURACY: 99.33%<br>
 
 
 ## Long Short-Term Memory (LSTM)
-This Algorithm is applied on Text Data.
+ThE LSTM is applied on Text Data.
 
 
 ### FIRST MODEL
